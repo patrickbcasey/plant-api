@@ -2,10 +2,10 @@
 <h2 align="center">An API supplying information about common plants you might find at your local garden center</h3>
 
 
-**Link to project:** 
+**Link to project:**:
+https://plant-api-100devs.herokuapp.com/
 
-
-## How It's Made:
+### This API is actively under construction
 
 **Tech used:**
 - This API was created using Node.js and Express.js
@@ -19,7 +19,4 @@
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-
-
+This was my first practice with building something using Windows Subsystem for Linux, which led to me having to figure out how to manage a new environment mid-project. Working with WSL instead of bash has been a struggle with wondering why my CLI tools are missing, but I finally got this simple project together and deployed.
