@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-const { response } = require('express')
 const PORT = 8000
 
 app.use(cors())
@@ -41,16 +40,16 @@ const plants = {
 }
 
 app.get('/' , (req, res) => {
-    response.sendFile(__dirname + '/index.html')
+    res.sendFile(__dirname + '/index.html')
 })
 
 app.get('/api/:name' , (req, res) => {
-    const plantName = request.params.name.toLowerCase()
+    const plantName = req.params.name.toLowerCase()
     if(plants[plantName]) {
-        response.json(plants[plantName])
+        res.json(plants[plantName])
     }
     else {
-        response.json(plants['unknown'])
+        res.json(plants['unknown'])
     }
     
 
